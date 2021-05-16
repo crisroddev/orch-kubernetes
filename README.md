@@ -25,3 +25,6 @@
  `tar xvfz prometheus-2.27.0.linux-amd64.tar.gz`
  `prometheus --config-file=prometheus.yml`
  `publicIp:9090`
+
+ # Scaling Kubernetes
+ `kubectl scale {deployment name} --replicas={desired number of replicas}`
